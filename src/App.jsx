@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:4000/products')
+      .get('https://products-api-4-e3wr.onrender.com')
       .then((response) => {
         setProducts(response.data)
         setLoading(false)
